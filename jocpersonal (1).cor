@@ -1,0 +1,300 @@
+escribir 1
+  NULL NULL NULL NULL NULL NULL
+  NULL NULL NULL NULL NULL NULL
+  NULL NULL NULL NULL NULL NULL
+  NULL NULL NULL NULL NULL NULL
+  NULL NULL NULL NULL NULL NULL
+  NULL NULL NULL NULL NULL NULL
+  0
+escribir 2
+  NULL
+  0
+escribir 3
+  NULL
+  0
+escribir 4
+  NULL NULL NULL NULL NULL
+  NULL NULL NULL NULL NULL
+  0
+escribir 5
+  NULL NULL NULL NULL NULL NULL NULL NULL
+  0
+escribir 6
+  NULL
+  NULL
+  NULL
+  NULL
+  NULL
+  NULL
+  NULL
+  NULL
+  0
+escribir 7
+  NULL NULL NULL NULL NULL NULL NULL NULL NULL NULL
+  0
+escribir 8
+  NULL
+  NULL
+  NULL
+  NULL
+  NULL
+  NULL
+  NULL
+  NULL
+  NULL
+  NULL
+  0
+escribir 9
+  0
+escribir 10
+  0
+escribir 11
+  NULL NULL NULL NULL
+  NULL NULL NULL NULL
+  NULL NULL NULL NULL
+  0
+poner_prod AAAA
+poner_prod AAAB
+poner_prod BBBB
+poner_prod CCCC
+poner_items 10 DDDD 1
+  error
+poner_items 10 AAAA 1
+  1
+escribir 10
+  0
+poner_items 1 BBBB 7
+  0
+poner_items 1 AAAA 10
+  0
+poner_items 1 CCCC 3
+  0
+poner_items 1 AAAB 5
+  0
+escribir 1
+  NULL NULL NULL NULL NULL NULL
+  AAAB NULL NULL NULL NULL NULL
+  CCCC CCCC AAAB AAAB AAAB AAAB
+  AAAA AAAA AAAA AAAA AAAA CCCC
+  BBBB AAAA AAAA AAAA AAAA AAAA
+  BBBB BBBB BBBB BBBB BBBB BBBB
+  25
+  AAAA 10
+  AAAB 5
+  BBBB 7
+  CCCC 3
+quitar_items 1 CCCC 2
+  0
+quitar_items 1 AAAB 3
+  0
+quitar_items 1 BBBB 4
+  0
+quitar_items 1 AAAA 9
+  0
+escribir 1
+  NULL NULL NULL NULL NULL NULL
+  AAAB NULL NULL NULL NULL NULL
+  NULL CCCC NULL NULL NULL AAAB
+  NULL NULL NULL NULL AAAA NULL
+  BBBB NULL NULL NULL NULL NULL
+  NULL NULL NULL NULL BBBB BBBB
+  7
+  AAAA 1
+  AAAB 2
+  BBBB 3
+  CCCC 1
+reorganizar 1
+escribir 1
+  NULL NULL NULL NULL NULL NULL
+  NULL NULL NULL NULL NULL NULL
+  NULL NULL NULL NULL NULL NULL
+  NULL NULL NULL NULL NULL NULL
+  CCCC NULL NULL NULL NULL NULL
+  AAAA AAAB AAAB BBBB BBBB BBBB
+  7
+  AAAA 1
+  AAAB 2
+  BBBB 3
+  CCCC 1
+redimensionar 1 2 3
+  error
+escribir 1
+  NULL NULL NULL NULL NULL NULL
+  NULL NULL NULL NULL NULL NULL
+  NULL NULL NULL NULL NULL NULL
+  NULL NULL NULL NULL NULL NULL
+  CCCC NULL NULL NULL NULL NULL
+  AAAA AAAB AAAB BBBB BBBB BBBB
+  7
+  AAAA 1
+  AAAB 2
+  BBBB 3
+  CCCC 1
+redimensionar 1 4 4
+distribuir DDDD 100
+  error
+distribuir AAAA 15
+  0
+distribuir BBBB 100
+  51
+escribir 1
+  AAAA AAAA AAAA AAAA
+  AAAA AAAA AAAA AAAA
+  BBBB BBBB CCCC AAAA
+  AAAA AAAB AAAB BBBB
+  16
+  AAAA 10
+  AAAB 2
+  BBBB 3
+  CCCC 1
+escribir 2
+  AAAA
+  1
+  AAAA 1
+escribir 3
+  AAAA
+  1
+  AAAA 1
+escribir 4
+  BBBB BBBB BBBB BBBB BBBB
+  AAAA BBBB BBBB BBBB BBBB
+  10
+  AAAA 1
+  BBBB 9
+escribir 5
+  AAAA BBBB BBBB BBBB BBBB BBBB BBBB BBBB
+  8
+  AAAA 1
+  BBBB 7
+escribir 6
+  BBBB
+  BBBB
+  BBBB
+  BBBB
+  BBBB
+  BBBB
+  BBBB
+  AAAA
+  8
+  AAAA 1
+  BBBB 7
+escribir 7
+  AAAA BBBB BBBB BBBB BBBB BBBB BBBB BBBB BBBB BBBB
+  10
+  AAAA 1
+  BBBB 9
+escribir 8
+  NULL
+  NULL
+  BBBB
+  BBBB
+  BBBB
+  BBBB
+  BBBB
+  BBBB
+  BBBB
+  BBBB
+  8
+  BBBB 8
+escribir 9
+  0
+escribir 10
+  0
+escribir 11
+  BBBB NULL NULL NULL
+  BBBB BBBB BBBB BBBB
+  BBBB BBBB BBBB BBBB
+  9
+  BBBB 9
+quitar_items 5 BBBB 6
+  0
+compactar 5
+escribir 5
+  AAAA BBBB NULL NULL NULL NULL NULL NULL
+  2
+  AAAA 1
+  BBBB 1
+quitar_items 5 AAAA 5
+  4
+compactar 5
+escribir 5
+  BBBB NULL NULL NULL NULL NULL NULL NULL
+  1
+  BBBB 1
+poner_items 5 AAAB 6
+  0
+redimensionar 5 7 1
+escribir 5
+  AAAB
+  AAAB
+  AAAB
+  AAAB
+  AAAB
+  AAAB
+  BBBB
+  7
+  AAAB 6
+  BBBB 1
+redimensionar 5 2 2
+  error
+redimensionar 5 7 7
+compactar 5
+escribir 5
+  NULL NULL NULL NULL NULL NULL NULL
+  NULL NULL NULL NULL NULL NULL NULL
+  NULL NULL NULL NULL NULL NULL NULL
+  NULL NULL NULL NULL NULL NULL NULL
+  NULL NULL NULL NULL NULL NULL NULL
+  NULL NULL NULL NULL NULL NULL NULL
+  BBBB AAAB AAAB AAAB AAAB AAAB AAAB
+  7
+  AAAB 6
+  BBBB 1
+compactar 11
+escribir 11
+  BBBB NULL NULL NULL
+  BBBB BBBB BBBB BBBB
+  BBBB BBBB BBBB BBBB
+  9
+  BBBB 9
+redimensionar 11 3 3
+escribir 11
+  BBBB BBBB BBBB
+  BBBB BBBB BBBB
+  BBBB BBBB BBBB
+  9
+  BBBB 9
+quitar_items 1 AAAA 9
+  0
+quitar_items 1 BBBB 3
+  0
+quitar_items 1 AAAB 2
+  0
+quitar_items 1 CCCC 1
+  0
+distribuir CCCC 17
+  1
+escribir 1
+  CCCC CCCC CCCC AAAA
+  CCCC CCCC CCCC CCCC
+  CCCC CCCC CCCC CCCC
+  CCCC CCCC CCCC CCCC
+  16
+  AAAA 1
+  CCCC 15
+escribir 8
+  NULL
+  CCCC
+  BBBB
+  BBBB
+  BBBB
+  BBBB
+  BBBB
+  BBBB
+  BBBB
+  BBBB
+  9
+  BBBB 8
+  CCCC 1
+redimensionar 11 10 10
+fin

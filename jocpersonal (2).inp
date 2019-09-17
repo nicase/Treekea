@@ -1,0 +1,102 @@
+11
+1 2 4 8 0 0 9 0 0 5 10 0 0 11 0 0 3 6 0 0 7 0 0
+6 6
+1 1 
+1 1
+2 5
+1 8
+8 1 
+1 10
+10 1
+1 0
+0 1
+3 4 
+
+escribir 1
+escribir 2
+escribir 3
+escribir 4
+escribir 5
+escribir 6
+escribir 7
+escribir 8
+escribir 9
+escribir 10
+escribir 11
+
+poner_prod AAAA
+poner_prod AAAB
+poner_prod BBBB
+poner_prod CCCC
+
+poner_items 10 DDDD 1
+poner_items 10 AAAA 1
+escribir 10
+
+poner_items 1 BBBB 7
+poner_items 1 AAAA 10
+poner_items 1 CCCC 3
+poner_items 1 AAAB 5
+escribir 1
+
+quitar_items 1 CCCC 2
+quitar_items 1 AAAB 3
+quitar_items 1 BBBB 4
+quitar_items 1 AAAA 9
+escribir 1
+
+reorganizar 1
+escribir 1
+
+redimensionar 1 2 3
+escribir 1
+redimensionar 1 4 4
+distribuir DDDD 100
+distribuir AAAA 15
+distribuir BBBB 100 
+
+escribir 1
+escribir 2
+escribir 3
+escribir 4
+escribir 5
+escribir 6
+escribir 7
+escribir 8
+escribir 9
+escribir 10
+escribir 11
+
+quitar_items 5 BBBB 6
+compactar 5
+escribir 5
+
+quitar_items 5 AAAA 5
+compactar 5
+escribir 5
+
+poner_items 5 AAAB 6
+redimensionar 5 7 1
+escribir 5
+
+redimensionar 5 2 2
+redimensionar 5 7 7
+compactar 5
+escribir 5
+
+compactar 11
+escribir 11
+redimensionar 11 3 3
+escribir 11
+
+quitar_items 1 AAAA 9
+quitar_items 1 BBBB 3
+quitar_items 1 AAAB 2
+quitar_items 1 CCCC 1
+distribuir CCCC 17
+escribir 1
+escribir 8
+
+redimensionar 11 10 10
+escriure 11
+fin
